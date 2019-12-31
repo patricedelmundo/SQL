@@ -27,4 +27,4 @@ SELECT
 	CONCAT(stock_quantity, ' in stock') AS 'quantity'
 	FROM books
 	
-	WHERE title LIKE 'A%';
+	WHERE title LIKE 'A%'; -- Only prints book titles starting with an A
