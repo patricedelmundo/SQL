@@ -1,0 +1,1 @@
+SELECT REPLACE(title, 'e', '3') FROM books;
