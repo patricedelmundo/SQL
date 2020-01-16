@@ -1,12 +1,11 @@
 /* CRUD EXERCISE 1
-
 Created a table of shirts, read, and updated some values here and there.
-
 */
 
 --reads current database
 SELECT database();
- 
+
+--create database
 CREATE DATABASE shirts_db;
 
 -- building a table inside the shirts database

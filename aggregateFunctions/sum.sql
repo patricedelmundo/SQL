@@ -8,7 +8,7 @@ SELECT SUM(released_year) FROM books;
 -- sums all pages each author has written
 SELECT author_fname,
        author_lname,
-       Sum(pages)
+       SUM(pages)
 FROM books
 GROUP BY
     author_lname,

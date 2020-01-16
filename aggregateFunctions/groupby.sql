@@ -6,8 +6,8 @@ SELECT title, author_lname FROM books
 GROUP BY author_lname;
 
 --Prints the number of books per author
-SELECT author_lname, COUNT(*) 
-FROM books GROUP BY author_lname;
+SELECT author_lname, COUNT(*) FROM books 
+GROUP BY author_lname;
  
 -- Prints title and name of author
 SELECT title, author_fname, author_lname FROM books;

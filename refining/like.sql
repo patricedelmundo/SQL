@@ -4,7 +4,7 @@ SELECT title, author_fname FROM books WHERE author_fname LIKE '%da%';
 -- Find an author where the first name starts with 'da'
 SELECT title, author_fname FROM books WHERE author_fname LIKE 'da%';
 
--https://ide-run.goorm.io/workspace/MySQL?language=us#- Search books titled 'the'
+-- Search books titled 'the'
 SELECT title FROM books WHERE title LIKE 'the';
 
 -- Search books that ends with 'the'
